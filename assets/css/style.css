@@ -1,0 +1,45 @@
+
+#container
+
+#your-char
+
+.char {
+
+	width: 100px;
+	height: 50px;
+	float: left;
+}
+
+.game-section
+
+#char1 {
+
+	background-color: red;
+}
+
+#char2 {
+		background-color: blue;
+
+}
+
+#char3 	{
+
+	background-color: green;
+
+}
+
+
+#char4 {
+
+		background-color: yellow;
+
+}
+
+#enemies-avail
+
+#fight-section
+
+#defender
+
+
+#report
