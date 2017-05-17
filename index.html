@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
    		 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
      	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-     	 <script src="assets/javascript/game.js" type="text/javascript"></script>
      	 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+     	      	 <script src="assets/javascript/game.js" type="text/javascript"></script>
+
 
     <title>
     </title>
@@ -19,25 +20,74 @@
 
 <div class="game-section" id="your-char">
 
-<div class="char" id="char1">Obi</div>
-<div class="char" id="char2">Luke</div>
-<div class="char" id="char3">Darth S</div>
-<div class="char" id="char4">Darth M</div>
+		<p>Your character</p>
+
+				<div class="char" id="char1">
+						Obi
+						<div class="life" id="char1life" data-healthpoints="">
+						</div>
+				</div>
+
+				<div class="char" id="char2">
+						Luke
+						<div class="life" id="char2life" data-healthpoints="">
+						</div>
+				</div>
+
+				<div class="char" id="char3">
+						Darth S
+						<div class="life" id="char3life" data-healthpoints="">
+						</div>
+				</div>
+
+				<div class="char" id="char4">
+						Darth M
+						<div class="life" id="char4life" data-healthpoints="">
+						</div>
+				</div>
 
 
 </div>
 
 
 
-<div class="game-section" id="enemies-avail"></div>
+<div class="game-section" id="enemies-avail">
+<p>Enemies Available</p>
+</div>
+
+
 
 <div class="game-section" id="fight-section">
-<button>Attack</button>
+
+<p>Fight section</p>
+
+<br/>
+<button id="attack_button">Attack</button></br></br>
+<button id="restart_button">Restart</button>
+
+
 </div>
 
-<div class="game-section" id="defender"></div>
+<div class="game-section" id="defender_wrapper">
+<div class="game-section" id="defender">
+<p>Defender</p>
+</div>
+</div>
 
-<div class="game-section" id="report"></div>
+
+<div class="game-section">
+
+		<div id="report1">
+		<p></p>
+		</div>
+
+		<div id="report2">
+		<p></p>
+		</div>
+
+</div>
+
+
 
 </div>
 
