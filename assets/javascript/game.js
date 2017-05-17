@@ -6,6 +6,11 @@ reset();
 
 $('#restart_button').css("display", "none");
 
+$('#report1')[0].innerText = "";
+$('#report2')[0].innerText = "";
+
+
+
 
 var select_mychar = false; // lets us know whether my character has been selected
 var select_defender = false; // lets us know wheter a defender has been selected
